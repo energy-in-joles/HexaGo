@@ -3,6 +3,20 @@
 ### Description ###
 Inspired by an old board game, HexaGo is a 6x6 board game, where both sides are given 3 rows of pawns (same characteristic as a Chess pawn). The goal is to get a pawn to the opponent's last row. This was a personal project of mine, where I used this as an opportunity to implement my first MCTS algorithm.
 
+```
+=== white's turn ===
+  a b c d e f
+6 X X X X X X
+5 X X X X X X
+4 X X X X X X
+3 O O O O O O
+2 O O O O O O
+1 O O O O O O
+
+Available moves: ['axb4', 'bxa4', 'bxc4', 'cxb4', 'cxd4', 'dxc4', 'dxe4', 'exd4', 'exf4', 'fxe4']
+Choose a move: 
+```
+
 ### How to Use ###
 The code (main.py) can be executed both in the terminal and in an IDE. Ensure that all 3 files are store in the same folder.
 
