@@ -26,7 +26,7 @@ The parameters for running in IDE are as follows:
 - side: "white" or "black". Dictate which side you are playing on (for CPU game ONLY)
 - simulation_no: a positive integer to dictate the number of MCTS simulations executed for cpu (for CPU game ONLY)
 - c_param: a positive integer to dictate the UCB exploit-exploration formula ratio. Higher value == more exploration and less exploit (for CPU game ONLY)
-- verbose: Dictate if cpu should print its UCB score for each move. Higher value == more favourable move
+- verbose: Dictate if cpu should print its UCB score for each move. Higher value == more favourable move (for CPU game ONLY)
 
 #### Running in Terminal ####
 Note that only **game_type** and **side** can be selected when executed in the terminal.
