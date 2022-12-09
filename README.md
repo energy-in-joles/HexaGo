@@ -4,15 +4,17 @@
 Inspired by an old board game, HexaGo is a 6x6 board game, where both sides are given 3 rows of pawns (same characteristic as a Chess pawn). The goal is to get a pawn to the opponent's last row. This was a personal project of mine, where I used this as an opportunity to implement my first MCTS algorithm.
 
 ### How to Use ###
-The code (main.py) can be executed both in the terminal and in an IDE. Ensure that all 3 files are store in the same folder. The paramaters are explained in the main.py file:
+The code (main.py) can be executed both in the terminal and in an IDE. Ensure that all 3 files are store in the same folder.
 
-Main Script Parameters:
+#### Running in IDE ####
+The parameters for running in IDE are as follows:
 - game_type: "cpu" or "vs". 1-player or 2-player.
 - side: "white" or "black". Dictate which side you are playing on (for CPU game ONLY)
 - simulation_no: a positive integer to dictate the number of MCTS simulations executed for cpu (for CPU game ONLY)
 - c_param: a positive integer to dictate the UCB exploit-exploration formula ratio. Higher value == more exploration and less exploit (for CPU game ONLY)
 - verbose: Dictate if cpu should print its UCB score for each move. Higher value == more favourable move
 
+#### Runnin in Terminal ####
 Note that only **game_type** and **side** can be selected when executed in the terminal.
 
 Usage: python main.py \[game_type] \[side]
