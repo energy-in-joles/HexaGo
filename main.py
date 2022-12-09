@@ -4,10 +4,10 @@ from sys import argv
 
 def main():
 	game_type = "cpu" # "cpu" or "vs". 1-player or 2-player.
-	side = "white" # Paramater for cpu game. Dictate which side you are playing on
-	simulation_no = 5000 # Dictate number of MCTS simulations executed for cpu
-	c_param = 1000 # Dictate the exploit-exploration formula ratio. Higher value == more exploration (less exploit)
-	verbose = False # Dictate if cpu should generate its UCB score for each move. Higher value == more favourable move
+	side = "white" # "white" or "black". Dictate which side you are playing on (for CPU game ONLY)
+	simulation_no = 5000 # a positive integer to dictate the number of MCTS simulations executed for cpu (for CPU game ONLY)
+	c_param = 1000 # a positive integer to dictate the UCB exploit-exploration formula ratio. Higher value == more exploration and less exploit (for CPU game ONLY)
+	verbose = False # Dictate if cpu should print its UCB score for each move. Higher value == more favourable move (for CPU game ONLY)
 
 	if len(argv) >= 2:
 		game_type, side, verbose = sanitise(game_type, side, verbose)
