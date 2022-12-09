@@ -23,7 +23,7 @@ def sanitise(game_type, side, verbose):
 
 	[game_type]: cpu or vs (1-player or 2-player).
 	[side]: white or black (only when playing against cpu)
-	-v: verbose tag. cpu will print UCB score for each move
+	-v: verbose flag. cpu will print UCB score for each move
 
 	Default (with no arguments given): python main.py cpu white
 
