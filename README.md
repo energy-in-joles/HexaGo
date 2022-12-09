@@ -34,9 +34,9 @@ Note that only **game_type** and **side** can be selected when executed in the t
 Usage: python main.py \[game_type] \[side]
 
 Terminal Parameters:
-	game_type: cpu or vs (1-player or 2-player).
-	side: white or black (only when playing against cpu)
-	-v: verbose tag. cpu will print UCB score for each move
+- game_type: cpu or vs (1-player or 2-player).
+- side: white or black (only when playing against cpu)
+- -v: verbose tag. cpu will print UCB score for each move
 
 ### Credits ###
 All credits to https://ai-boson.github.io/mcts/ for the MCTS code file. I merely adapted it for implementation.
