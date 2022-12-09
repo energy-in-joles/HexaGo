@@ -14,7 +14,7 @@ The parameters for running in IDE are as follows:
 - c_param: a positive integer to dictate the UCB exploit-exploration formula ratio. Higher value == more exploration and less exploit (for CPU game ONLY)
 - verbose: Dictate if cpu should print its UCB score for each move. Higher value == more favourable move
 
-#### Runnin in Terminal ####
+#### Running in Terminal ####
 Note that only **game_type** and **side** can be selected when executed in the terminal.
 
 Usage: python main.py \[game_type] \[side]
