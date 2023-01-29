@@ -18,25 +18,23 @@ Choose a move:
 ```
 
 ### How to Use ###
-The code (main.py) can be executed both in the terminal and in an IDE. Ensure that all 3 files are store in the same folder.
+The code (main.py) can be executed both in the terminal and in an IDE. Parameters are available in `main.py` to adjust the AI algorithm. Ensure that all 3 files are stored in the same folder.
 
-#### Running in IDE ####
-The parameters for running in IDE are as follows:
+#### Terminal Paramaters ####
+Note that only **game_type** and **side** can be set as terminal parameters.
+
+Usage: `python main.py \[game_type] \[side]`
+- \[game_type]: cpu or vs (1-player or 2-player).
+- \[side]: white or black (only when playing against cpu)
+- -v: verbose flag. cpu will print UCB score for each move
+
+#### main.py Paramaters ####
+main.py provides additional paramters for adjusting the AI algorithm:
 - game_type: "cpu" or "vs". 1-player or 2-player.
 - side: "white" or "black". Dictate which side you are playing on (for CPU game ONLY)
 - simulation_no: a positive integer to dictate the number of MCTS simulations executed for cpu (for CPU game ONLY)
 - c_param: UCB confidence value. A positive integer to dictate the exploit-exploration formula ratio. Higher value == more exploration and less exploit (for CPU game ONLY)
 - verbose: Dictate if cpu should print its UCB score for each move. Higher value == more favourable move (for CPU game ONLY)
-
-#### Running in Terminal ####
-Note that only **game_type** and **side** can be selected when executed in the terminal.
-
-Usage: python main.py \[game_type] \[side]
-
-Terminal Parameters:
-- \[game_type]: cpu or vs (1-player or 2-player).
-- \[side]: white or black (only when playing against cpu)
-- -v: verbose flag. cpu will print UCB score for each move
 
 ### Credits ###
 All credits to https://ai-boson.github.io/mcts/ for the MCTS code file. I merely adapted it for implementation.
