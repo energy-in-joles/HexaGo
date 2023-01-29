@@ -18,7 +18,7 @@ Choose a move:
 ```
 
 ### How to Use ###
-The code (main.py) can be executed both in the terminal and in an IDE. Parameters are available in `main.py` to adjust the AI algorithm. Ensure that all 3 files are stored in the same folder.
+The code (`main.py`) can be executed both in the terminal and in an IDE. Parameters are available in `main.py` to adjust the AI algorithm. Ensure that all 3 files are stored in the same folder.
 
 #### Terminal Paramaters ####
 Note that only **game_type** and **side** can be set as terminal parameters.
