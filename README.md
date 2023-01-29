@@ -18,7 +18,7 @@ Choose a move:
 ```
 
 ### How to Use ###
-The code (`main.py`) can be executed both in the terminal and in an IDE. Parameters are available in `main.py` to adjust the AI algorithm. Ensure that all 3 files are stored in the same source folder.
+The code (`main.py`) can be executed both in the terminal and in an IDE. Parameters are available in `main.py` to adjust the AI algorithm. Ensure that all 3 scripts are stored in the same source folder.
 
 #### Terminal Paramaters ####
 Note that only **game_type** and **side** can be set as terminal parameters.
@@ -29,7 +29,7 @@ Usage: `python main.py \[game_type] \[side]`
 - -v: verbose flag. cpu will print UCB score for each move
 
 #### main.py Paramaters ####
-main.py provides additional paramters for adjusting the AI algorithm:
+`main.py` provides additional paramters for adjusting the AI algorithm:
 - game_type: "cpu" or "vs". 1-player or 2-player.
 - side: "white" or "black". Dictate which side you are playing on (for CPU game ONLY)
 - simulation_no: a positive integer to dictate the number of MCTS simulations executed for cpu (for CPU game ONLY)
