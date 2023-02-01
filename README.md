@@ -3,6 +3,7 @@
 ### Description ###
 Inspired by an old board game, HexaGo is a 6x6 board game, where both sides are given 3 rows of pawns (same characteristic as a Chess pawn). The goal is to get a pawn to the opponent's last row. This was a personal project of mine, where I used this as an opportunity to implement my first MCTS algorithm.
 
+Starting:
 ```
 === white's turn ===
   a b c d e f
@@ -15,6 +16,21 @@ Inspired by an old board game, HexaGo is a 6x6 board game, where both sides are 
 
 Available moves: ['axb4', 'bxa4', 'bxc4', 'cxb4', 'cxd4', 'dxc4', 'dxe4', 'exd4', 'exf4', 'fxe4']
 Choose a move: 
+```
+
+Win for White ("O"):
+```
+Choose a move: bxa6#
+
+  f e d c b a
+1 O O O O O O
+2 O O O O O O
+3 X X O O . .
+4 X . . X X .
+5 X X X . . X
+6 X X X X X O
+
+White wins!
 ```
 
 ### How to Use ###
