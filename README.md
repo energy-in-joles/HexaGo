@@ -39,10 +39,10 @@ The code (`main.py`) can be executed both in the terminal and in an IDE. Paramet
 #### Terminal Paramaters ####
 Note that only **game_type** and **side** can be set as terminal parameters.
 
-Usage: `python main.py \[game_type] \[side]`
-- \[game_type]: cpu or vs (1-player or 2-player).
-- \[side]: white or black (only when playing against cpu)
-- -v: verbose flag. cpu will print UCB score for each move
+Usage: `python main.py [game_type] [side] [-v]`
+- \[game_type]: `cpu` or `vs` (1-player or 2-player).
+- \[side]: `white` or `black` (only when playing against cpu)
+- `-v`: verbose flag. cpu will print UCB score for each move
 
 #### main.py Paramaters ####
 `main.py` provides additional paramters for adjusting the AI algorithm:
